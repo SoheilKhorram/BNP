@@ -38,10 +38,10 @@
             </div>
 
             <div>
-                <button class="btn login-button">login</button>
-                <button class="btn signup-button">sign up</button>
+                <button class="btn login-button">LOGIN</button>
+                <button class="btn signup-button">SIGN UP</button>
             </div>
-            <button class="btn home-button">go to home page</button>
+            <button class="btn home-button">HOME PAGE</button>
 
         </main>
     </div>
