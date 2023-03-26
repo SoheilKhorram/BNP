@@ -3,7 +3,6 @@
     --primary-clr-200: #393E46;
     --primary-clr-300: #4e535a;
     --secondary-clr: #eeeeee;
-
     --radius: 10px;
 }
 
@@ -39,8 +38,8 @@ select:focus {
 }
 
 .earth-icon {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     align-self: center;
 }
 
@@ -94,11 +93,23 @@ main {
 
 .description {
     color: var(--primary-clr-100);
-    max-width: 35ch;
+    max-width: 40ch;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+.description {
+font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+.description {
+font-size: 0.8rem;
+	}
 }
 
 .btn {
@@ -109,7 +120,7 @@ main {
     color: var(--secondary-clr);
     font-size: 1.2rem;
     text-decoration: none;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.2s;
     width: 8rem;
 }
 
@@ -119,5 +130,5 @@ main {
 
 .btn:hover {
     box-shadow: 0 0 2px var(--primary-clr-100);
-    transform: translateY(-4px);
+    transform: scale(1.04);
 }

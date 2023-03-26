@@ -58,18 +58,19 @@ echo 'name karbari vojood nadare';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/login.css" rel="stylesheet">
-    <title>Document</title>
+    <title>LOGIN</title>
 </head>
 
 <body>
 
     <div class="login">
         <h1>Login</h1>
+	<form action="" method="POST">
         <div class="login__username">
             <label for="username">Username</label>
             <div class="flex-center">
                 <img src="./images/user-light.png" alt="user" class="icon">
-                <input type="text" placeholder="Type your username">
+                <input name="username" type="text" placeholder="Type your username">
             </div>
         </div>
 
@@ -77,11 +78,21 @@ echo 'name karbari vojood nadare';
             <label for="password">Password</label>
             <div class="flex-center">
                 <img src="./images/lock-light.png" alt="lock" class="icon">
-                <input type="password" placeholder="Type your password" id="password" required>
+                <input name="password" type="password" placeholder="Type your password" id="password" required>
             </div>
         </div>
+	<input type="submit" class="submit-button" style="display: none;">
+		<form>
 
         <button class="login__button">login</button>
+
+       <script>
+        document.querySelector(".login__button")
+            .addEventListener("click", function() {
+                document.querySelector(".submit-button")
+                    .click()
+            })
+        </script>
 
 </body>
 
