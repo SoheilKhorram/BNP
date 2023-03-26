@@ -100,6 +100,14 @@ $_SESSION['login_status'] = 1;
                 </div>
             </div>
 
+            <div class="signup__email">
+                <label for="password">Email</label>
+                <div class="flex-center">
+                    <img src="./images/email-light.png" alt="email" class="icon">
+                    <input name="email" type="email" placeholder="Type your email" id="email" required>
+                </div>
+            </div>
+
             <div class="signup__password">
                 <label for="password">Password</label>
                 <div class="flex-center">
@@ -108,13 +116,7 @@ $_SESSION['login_status'] = 1;
                 </div>
             </div>
 
-            <div class="signup__email">
-                <label for="password">Email</label>
-                <div class="flex-center">
-                    <img src="./images/email-light.png" alt="email" class="icon">
-                    <input name="email" type="email" placeholder="Type your email" id="email" required>
-                </div>
-            </div>
+
             <input type="submit" class="submit-button" style="display: none;">
         </form>
 
