@@ -1,0 +1,145 @@
+:root {
+    --primary-clr-100: #222831;
+    --primary-clr-200: #393E46;
+    --primary-clr-300: #4e535a;
+    --secondary-clr: #eeeeee;
+
+    --radius: 10px;
+}
+
+@font-face {
+    font-family: EnglishFont;
+    src: url(./css/Poppins.ttf);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    border: none;
+    -webkit-text-fill-color: var(--secondary-clr);
+    -webkit-background-clip: text;
+}
+
+html {
+    font-family: EnglishFont;
+}
+
+body {
+    background: linear-gradient(176deg, var(--primary-clr-100) 0%, var(--secondary-clr) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--secondary-clr);
+}
+
+.signup {
+    background-color: var(--primary-clr-100);
+    border: solid 2px var(--secondary-clr);
+    outline: solid 2px var(--primary-clr-200);
+    border-radius: var(--radius);
+    padding: 3rem 2rem;
+    min-width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup>*+* {
+    margin-top: 3rem;
+}
+
+form>*+* {
+    margin-top: 3rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.signup__username,
+.signup__password,
+.signup__email {
+    border-bottom: 1.5px solid transparent;
+    border-image: linear-gradient(0.25turn, transparent, var(--secondary-clr), transparent);
+    border-image-slice: 1;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 92%;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    padding-left: 4px;
+    color: var(--secondary-clr);
+}
+
+input:focus,
+input {
+    font-weight: 500;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+input::-webkit-input-placeholder {
+    -webkit-transition: opacity 0.2s linear;
+    color: var(--text-clr-dark);
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signup__button {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: calc(var(--radius) * 2);
+    padding: 0.6rem;
+    cursor: pointer;
+    background-color: var(--primary-clr-200);
+    color: var(--text-clr-dark);
+    transition: all 300ms ease;
+    display: block;
+    text-align: center;
+}
+
+.signup__button:hover {
+    background-color: var(--primary-clr-300);
+}
