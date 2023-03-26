@@ -1,0 +1,21 @@
+:root {
+    --primary-clr-100: #222831;
+    --primary-clr-200: #393E46;
+    --primary-clr-300: #4e535a;
+    --secondary-clr: #eeeeee;
+    --radius: 10px;
+}
+
+
+@font-face {
+    font-family: EnglishFont;
+    src: url(Poppins.ttf);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
