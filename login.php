@@ -1,13 +1,5 @@
 <?php
 session_start();
-// ASDADASDASDAD
-// this is line 4 BNP
-// TESTTTTTTTT
-
-
-
-
-
 
 $_SESSION['login_status'] = 0;
 if(isset($_POST['username'])&& isset($_POST['password']))
@@ -73,22 +65,6 @@ echo 'name karbari vojood nadare';
 
     <div class="login">
         <h1>Login</h1>
-
-        <!-- this is line 69 -->
-
-
-
-
-
-
-        <!-- new line -->
-
-
-
-
-
-
-
         <div class="login__username">
             <label for="username">Username</label>
             <div class="flex-center">
