@@ -3,6 +3,7 @@
     --primary-clr-200: #393E46;
     --primary-clr-300: #4e535a;
     --secondary-clr: #eeeeee;
+    --accent-clr: #ffd369;
 
     --radius: 10px;
 }
@@ -48,6 +49,7 @@ body {
     align-items: center;
     min-height: 100vh;
     color: var(--secondary-clr);
+    flex-direction: column;
 }
 
 .login {
@@ -142,4 +144,18 @@ label {
 
 .login__button:hover {
     background-color: var(--primary-clr-300);
+}
+
+/* styling the errors */
+
+.error__icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+}
+
+.error {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: var(--accent-clr);
 }

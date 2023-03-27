@@ -36,14 +36,28 @@ $_SESSION['login_status'] = 1;
 
 else
 {
-echo 'password eshtebahe';
+echo '
+<div class="error">
+    <div class="flex-center">
+        <img src="./images/close-accent.png" alt="error" class="error__icon">
+        <p>password is incorrcet</p>
+    </div>
+</div>
+';
 }
 
 }
 
 else
 {
-echo 'name karbari vojood nadare';
+echo '
+<div class="error">
+    <div class="flex-center">
+        <img src="./images/close-accent.png" alt="error" class="error__icon">
+        <p>username does not exist</p>
+    </div>
+</div>
+';
 }
 
 }
@@ -65,34 +79,34 @@ echo 'name karbari vojood nadare';
 
     <div class="login">
         <h1>Login</h1>
-	<form action="" method="POST">
-        <div class="login__username">
-            <label for="username">Username</label>
-            <div class="flex-center">
-                <img src="./images/user-light.png" alt="user" class="icon">
-                <input name="username" type="text" placeholder="Type your username">
+        <form action="" method="POST">
+            <div class="login__username">
+                <label for="username">Username</label>
+                <div class="flex-center">
+                    <img src="./images/user-light.png" alt="user" class="icon">
+                    <input name="username" type="text" placeholder="Type your username">
+                </div>
             </div>
-        </div>
 
-        <div class="login__password">
-            <label for="password">Password</label>
-            <div class="flex-center">
-                <img src="./images/lock-light.png" alt="lock" class="icon">
-                <input name="password" type="password" placeholder="Type your password" id="password" required>
+            <div class="login__password">
+                <label for="password">Password</label>
+                <div class="flex-center">
+                    <img src="./images/lock-light.png" alt="lock" class="icon">
+                    <input name="password" type="password" placeholder="Type your password" id="password" required>
+                </div>
             </div>
-        </div>
-	<input type="submit" class="submit-button" style="display: none;">
-		<form>
+            <input type="submit" class="submit-button" style="display: none;">
+            <form>
 
-        <button class="login__button">login</button>
+                <button class="login__button">login</button>
 
-       <script>
-        document.querySelector(".login__button")
-            .addEventListener("click", function() {
-                document.querySelector(".submit-button")
-                    .click()
-            })
-        </script>
+                <script>
+                document.querySelector(".login__button")
+                    .addEventListener("click", function() {
+                        document.querySelector(".submit-button")
+                            .click()
+                    })
+                </script>
 
 </body>
 
