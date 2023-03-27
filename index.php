@@ -14,7 +14,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/index.css">
-    <title>...</title>
+    <title>F14K, Welcome to our world.</title>
 </head>
 
 <body>

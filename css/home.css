@@ -173,7 +173,11 @@ footer {
 
 .social-media-icons {
     margin-top: 0.5rem;
-    display: flex;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	flex-direction:row;
     width: 100%;
 }
 

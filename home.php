@@ -115,24 +115,34 @@
                 <p>
                     Follow us on the following platforms
                 <div class="social-media-icons">
-                    <a href="https://t.me/ArtinZomorodian">
+                    <a href="https://t.me/F14KChannel">
                         <img src="images/telegram-accent.png" alt="telegram" class="social-media-icon">
                     </a>
 
-                    <a href="#">
+                    <a href="https://www.reddit.com/user/Formula14k">
                         <img src="images/reddit-accent.png" alt="reddit" class="social-media-icon">
                     </a>
-                    <a href="#">
+                    <a href="https://www.youtube.com/@Formula14K/">
                         <img src="images/youtube-accent.png" alt="youtube" class="social-media-icon">
                     </a>
+
+  
+
                 </div>
                 <div class="social-media-icons">
-                    <a href="#">
+                    <a href="https://www.instagram.com/formula14k/">
                         <img src="images/instagram-accent.png" alt="instagram" class="social-media-icon">
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/F1_4k">
                         <img src="images/twitter-accent.png" alt="twitter" class="social-media-icon">
                     </a>
+
+              <a href="https://discord.gg/RvNa9rQT">
+                        <img src="images/discord.png" alt="twitter" class="social-media-icon">
+                    </a>
+ 
+
+
                 </div>
                 </p>
                 </p>
