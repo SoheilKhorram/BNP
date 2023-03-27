@@ -31,37 +31,86 @@ $emails_column[] = $row["email"];
 
 if( strlen($user_username) > 12 || strlen($user_username) < 4 )
 {
-echo 'tedade horoofe name karbari beine 4 ta 12 harf bashad';
+echo '
+<div class="error">
+    <div class="flex-center">
+        <img src="./images/close-accent.png" alt="error" class="error__icon">
+        <p>username must be between 4 to 8 characters</p>
+    </div>
+</div>
+';
 }
 
 elseif( !preg_match("/.*@gmail\.com$/i" , $user_email) )
 {
-echo 'formate email nadorost ast';
+echo '
+<div class="error">
+    <div class="flex-center">
+        <img src="./images/close-accent.png" alt="error" class="error__icon">
+        <p>email format is incorrcet</p>
+    </div>
+</div>
+';
 }
 
 elseif( strlen($user_email) > 25 )
 {
-echo 'toole email bish tar az hadde mojaz ast';
+echo '
+<div class="error">
+    <div class="flex-center">
+        <img src="./images/close-accent.png" alt="error" class="error__icon">
+        <p>email length is to long</p>
+    </div>
+</div>
+';
 }
 
 elseif( strlen($_POST['password']) > 13 || strlen($_POST['password']) < 7 )
 {
-echo 'password bayad beine 7 ta 13 harf bashad';
+echo '
+<div class="error">
+    <div class="flex-center">
+        <img src="./images/close-accent.png" alt="error" class="error__icon">
+        <p>password must be between 7 to 13 letters</p>
+    </div>
+</div>
+';
 }
 
 elseif( !preg_match("/^(?=.*?\d)(?=.*?[a-zA-Z])[a-zA-Z\d]+$/i" , $_POST['password']) )
 {
-echo 'password bayad shamele adad va horoof bashad';
+echo '  
+<div class="error">
+    <div class="flex-center">
+        <img src="./images/close-accent.png" alt="error" class="error__icon">
+        <p>password must include numbers and letters</p>
+    </div>
+</div>
+';
 }
 
 elseif( in_array($user_username,$usernames_column) )
 {
-echo 'name karbari ghablan estefade shode';
+echo '
+<div class="error">
+    <div class="flex-center">
+        <img src="./images/close-accent.png" alt="error" class="error__icon">
+        <p>username has already taken</p>
+    </div>
+</div>
+';
 }
 
 elseif( in_array($user_email,$emails_column) )
 {
-echo 'email ghablan estefade shode';
+echo '
+<div class="error">
+    <div class="flex-center">
+        <img src="./images/close-accent.png" alt="error" class="error__icon">
+        <p>email has already taken</p>
+    </div>
+</div>
+';
 }
 
 else
