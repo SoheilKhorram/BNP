@@ -7,10 +7,15 @@ if(isset($_POST['username'])&& isset($_POST['password']))
 $user_username = $_POST['username'];
 $user_password = hash('sha256',$_POST['password']);
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "bnp";
+//$servername = "localhost";
+$servername = "mail";
+//$username = "root";
+$username = "cp56810_root";
+//$password = "";
+$password = "djwis8$#25@s";
+//$dbname = "bnp";
+$dbname = "cp56810_bnp";
+
 $conn = mysqli_connect($servername,$username,$password,$dbname);
 
 $query = mysqli_query($conn,'SELECT username,password FROM users');
