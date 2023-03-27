@@ -84,7 +84,7 @@ html {
     align-items: center;
     align-content: center;
     flex-direction: column;
-    color: white;
+    color: var(--secondary-clr);
     display: none;
 }
 
