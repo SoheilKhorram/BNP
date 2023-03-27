@@ -22,7 +22,7 @@
     <div class="container">
 
         <div class="navbar">
-            <div class="navbar__logo">LOGO</div>
+            <div class="navbar__logo">BNP</div>
             <div class="flex-center">
                 <img class="earth-icon" src="./images/earth-globe-light.png">
                 <select name="language" id="language-select" value="English">
@@ -33,15 +33,16 @@
         </div>
 
         <main>
-            <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam iste ut ducimus
-                perspiciatis voluptate praesentium
+            <div class="description">Welcome to the new world of motorsport.
+			Get to know more about the speed and precision of drivers and engineering power with us and let us accompany you on this path.
+			We are waiting for your warm presence in our house.
             </div>
 
             <div>
-                <button class="btn login-button">login</button>
-                <button class="btn signup-button">sign up</button>
+                <button class="btn login-button">LOGIN</button>
+                <button class="btn signup-button">SIGN UP</button>
             </div>
-            <button class="btn home-button">go to home page</button>
+            <button class="btn home-button">HOME PAGE</button>
 
         </main>
     </div>
