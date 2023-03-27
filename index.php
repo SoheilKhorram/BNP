@@ -19,6 +19,10 @@
 
 <body>
 
+<video autoplay muted loop id="intro-video">
+  <source src="images/intro-vid.mp4" type="video/mp4">
+</video>
+
     <div class="container">
 
         <div class="navbar">

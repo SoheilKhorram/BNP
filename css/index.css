@@ -62,7 +62,7 @@ html {
 }
 
 body {
-    background: linear-gradient(176deg, var(--primary-clr-100) 0%, var(--secondary-clr) 100%);
+  background: #aaaaaa4f;
 }
 
 .container {
@@ -122,6 +122,17 @@ font-size: 0.8rem;
     text-decoration: none;
     transition: all 0.2s;
     width: 8rem;
+}
+
+#intro-video
+{
+position:fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+z-index:-1;
+opacity:0.2;
 }
 
 .home-button {
