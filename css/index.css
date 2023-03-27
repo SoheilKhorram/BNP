@@ -38,15 +38,14 @@ select:focus {
 }
 
 .earth-icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
     align-self: center;
 }
 
 select {
     padding: 5px;
     background-color: transparent;
-    color: var(--secondary-clr);
+    color: var(--primary-clr-200);
     opacity: 0.7;
     z-index: 2;
 }
@@ -54,7 +53,7 @@ select {
 option {
     cursor: pointer;
     color: rgba(245, 245, 245, 0.788);
-    background-color: var(--primary-clr-100);
+    background-color: var(--primary-clr-200);
 }
 
 html {
@@ -72,7 +71,7 @@ body {
 }
 
 .navbar__logo {
-    color: var(--secondary-clr);
+    color: var(--primary-clr-200);
     font-size: 2rem;
 }
 
@@ -98,6 +97,11 @@ main {
     font-size: 1.4rem;
     margin-bottom: 1rem;
     font-weight: 600;
+}
+
+#language-select
+{
+font-size:20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -127,7 +131,7 @@ font-size: 0.8rem;
 #intro-video
 {
 position:fixed;
-right: 0;
+left: 0;
 bottom: 0;
 min-width: 100%;
 min-height: 100%;

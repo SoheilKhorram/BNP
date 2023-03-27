@@ -28,7 +28,7 @@
         <div class="navbar">
             <div class="navbar__logo">BNP</div>
             <div class="flex-center">
-                <img class="earth-icon" src="./images/earth-globe-light.png">
+                <img class="earth-icon" src="./images/earth-globe-dark.png">
                 <select name="language" id="language-select" value="English">
                     <option value="English">English</option>
                     <option value="Persian">Persian</option>
@@ -37,8 +37,8 @@
         </div>
 
         <main>
-            <div class="description">Welcome to the new world of motorsport.
-			Get to know more about the speed and precision of drivers and engineering power with us and let us accompany you on this path.
+            <div class="description">Welcome to the new world of motorsport. <br>
+			Get to know more about the speed and precision of drivers and engineering power with us and let us accompany you on this path. <br>
 			We are waiting for your warm presence in our house.
             </div>
 
@@ -50,6 +50,13 @@
 
         </main>
     </div>
+
+<script>
+$(".login-button").click(function(){window.location.href = "login.php";})
+$(".signup-button").click(function(){window.location.href = "signup.php";})
+$(".home-button").click(function(){window.location.href = "home.php";})
+</script>
+
 
 </body>
 

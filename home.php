@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="viewport" content="width=1280">
     <link href="css/home.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
@@ -49,7 +50,7 @@
 
     </div>
 
-    <main>
+    <main style="padding:50px;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Amet volutpat consequat mauris nunc congue nisi vitae. Nam libero justo laoreet sit amet cursus.
         Nascetur ridiculus mus mauris vitae ultricies leo. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus.
@@ -57,14 +58,6 @@
         tellus orci ac. Augue mauris augue neque gravida in fermentum. Sem fringilla ut morbi tincidunt augue interdum
         velit euismod in. Vivamus at augue eget arcu dictum varius duis. Integer eget aliquet nibh praesent tristique
         magna sit. Nullam non nisi est sit.
-
-        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Donec enim diam vulputate ut pharetra
-        sit amet aliquam id. Nunc sed augue lacus viverra vitae congue eu consequat. Dictum non consectetur a erat nam
-        at lectus urna duis. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Viverra ipsum nunc aliquet bibendum enim
-        facilisis. In dictum non consectetur a erat. Urna duis convallis convallis tellus id interdum velit laoreet id.
-        Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet. Metus vulputate eu scelerisque felis
-        imperdiet proin fermentum leo vel. Dolor sit amet consectetur adipiscing elit ut. Ut placerat orci nulla
-        pellentesque. Turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie.
 
         Ut placerat orci nulla pellentesque dignissim. Ac tortor dignissim convallis aenean et tortor. Nisl pretium
         fusce id velit ut tortor pretium viverra suspendisse. Dictum at tempor commodo ullamcorper a. Suscipit tellus
