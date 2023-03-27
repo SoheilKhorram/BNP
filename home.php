@@ -49,8 +49,34 @@
 
     </div>
 
-
-
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h3>About Us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, quo te porro tritani. Qui te graece vocibus. Ex meis democritum vix,
+                    alii
+                    iisque vix an, ad vim dicunt offendit abhorreant. Tamquam perfecto et nam, eu natum efficiantur vel.
+                </p>
+            </div>
+            <div class="footer-item">
+                <h3>Contact Us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, quo te porro tritani. Qui te graece vocibus. Ex meis democritum vix,
+                    alii
+                    iisque vix an, ad vim dicunt offendit abhorreant. Tamquam perfecto et nam, eu natum efficiantur vel.
+                </p>
+            </div>
+            <div class="footer-item">
+                <h3>Follow Us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, quo te porro tritani. Qui te graece vocibus. Ex meis democritum vix,
+                    alii
+                    iisque vix an, ad vim dicunt offendit abhorreant. Tamquam perfecto et nam, eu natum efficiantur vel.
+                </p>
+            </div>
+        </div>
+    </footer>
 
     <script>
     $(".menu-item").hover(function() {
