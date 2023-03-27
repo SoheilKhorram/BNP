@@ -54,9 +54,14 @@
             <div class="footer-item">
                 <h3>About Us</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, quo te porro tritani. Qui te graece vocibus. Ex meis democritum vix,
-                    alii
-                    iisque vix an, ad vim dicunt offendit abhorreant. Tamquam perfecto et nam, eu natum efficiantur vel.
+                    We are a small group that has prepared a new world of motorsport for you.
+                </p>
+                <p>
+                    On March 23, 2023, our team started working exclusively in the field of motorsports and decided to
+                    start working on different platforms.
+                </p>
+                <p>
+                    Want to know more about us? Click on the button below to get to know us.
                 </p>
                 <div class="read-more-div">
                     <a href="#" class="read-more">
@@ -67,10 +72,19 @@
             <div class="footer-item">
                 <h3>Contact Us</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, quo te porro tritani. Qui te graece vocibus. Ex meis democritum vix,
-                    alii
-                    iisque vix an, ad vim dicunt offendit abhorreant. Tamquam perfecto et nam, eu natum efficiantur vel.
+                    You can contact us.
                 </p>
+                <p>
+                    To support, for problems or even cooperate with us, click on the options below
+                </p>
+                <div class="social-media-icons">
+                    <a href="mailto:Formula1.4k@gmail.com">
+                        <img src="images/email-accent.png" alt="email" class="social-media-icon">
+                    </a>
+                    <a href="https://t.me/ArtinZomorodian">
+                        <img src="images/telegram-accent.png" alt="telegram" class="social-media-icon">
+                    </a>
+                </div>
             </div>
             <div class="footer-item">
                 <h3>Follow Us</h3>
@@ -79,7 +93,7 @@
                 <p>
                     Follow us on the following platforms
                 <div class="social-media-icons">
-                    <a href="#">
+                    <a href="https://t.me/ArtinZomorodian">
                         <img src="images/telegram-accent.png" alt="telegram" class="social-media-icon">
                     </a>
 
