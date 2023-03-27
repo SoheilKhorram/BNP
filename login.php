@@ -30,7 +30,6 @@ $username_index = array_search($user_username,$usernames_column);
 
 if($user_password == $passwords_column[$username_index])
 {
-echo 'LOGINED !';
 $_SESSION['login_status'] = 1;
 }
 

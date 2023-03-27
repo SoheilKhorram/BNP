@@ -117,7 +117,6 @@ else
 {
 $sql = "INSERT INTO users (username,email,password) VALUES ('$user_username','$user_email','$user_password')";
 mysqli_query($conn,$sql);
-echo 'signed up !';
 $_SESSION['login_status'] = 1;
 }
 }
