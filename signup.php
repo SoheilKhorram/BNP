@@ -178,6 +178,11 @@ $_SESSION['login_status'] = 1;
                 document.querySelector(".submit-button")
                     .click()
             })
+
+
+if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
         </script>
 
 </body>

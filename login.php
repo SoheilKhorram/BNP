@@ -78,7 +78,7 @@ echo '
 
     <div class="login">
         <h1>Login</h1>
-        <form action="" method="POST">
+        <form action="" method="POST" >
             <div class="login__username">
                 <label for="username">Username</label>
                 <div class="flex-center">
@@ -105,6 +105,14 @@ echo '
                         document.querySelector(".submit-button")
                             .click()
                     })
+
+
+
+if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
+
+
                 </script>
 
 </body>
