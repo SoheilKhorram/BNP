@@ -45,7 +45,7 @@
 
         <div class="menu-item"><span>Lemans</span></div>
 
-        <div class="menu-item" style="animation:ghost 2s infinite"><span>COMING SOON</span></div>
+        <div class="menu-item coming-soon" style="animation:ghost 2s infinite"><span>COMING SOON</span></div>
 
     </div>
 
@@ -58,6 +58,11 @@
                     alii
                     iisque vix an, ad vim dicunt offendit abhorreant. Tamquam perfecto et nam, eu natum efficiantur vel.
                 </p>
+                <div class="read-more-div">
+                    <a href="#" class="read-more">
+                        Read More
+                    </a>
+                </div>
             </div>
             <div class="footer-item">
                 <h3>Contact Us</h3>
@@ -70,9 +75,30 @@
             <div class="footer-item">
                 <h3>Follow Us</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, quo te porro tritani. Qui te graece vocibus. Ex meis democritum vix,
-                    alii
-                    iisque vix an, ad vim dicunt offendit abhorreant. Tamquam perfecto et nam, eu natum efficiantur vel.
+                    Did you know that we also operate on other platforms?
+                <p>
+                    Follow us on the following platforms
+                <div class="social-media-icons">
+                    <a href="#">
+                        <img src="images/telegram-accent.png" alt="telegram" class="social-media-icon">
+                    </a>
+
+                    <a href="#">
+                        <img src="images/reddit-accent.png" alt="reddit" class="social-media-icon">
+                    </a>
+                    <a href="#">
+                        <img src="images/youtube-accent.png" alt="youtube" class="social-media-icon">
+                    </a>
+                </div>
+                <div class="social-media-icons">
+                    <a href="#">
+                        <img src="images/instagram-accent.png" alt="instagram" class="social-media-icon">
+                    </a>
+                    <a href="#">
+                        <img src="images/twitter-accent.png" alt="twitter" class="social-media-icon">
+                    </a>
+                </div>
+                </p>
                 </p>
             </div>
         </div>
