@@ -54,6 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+	background:#f6f6f8;
 }
 
 .menu-container {
@@ -331,4 +332,121 @@ flex-direction:row;
 width:500px;
 margin:30px;
 border-radius:10px;
+}
+
+.main-page-container-part-1
+{
+width:100%;
+display:flex;
+justify-content:space-around;
+align-items:center;
+align-content:center;
+flex-direction:row-reverse;
+margin:80px 0;
+}
+
+.intro-text
+{
+width:30%;
+text-align:center;
+display:flex;
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:column;
+}
+
+.intro-text span:nth-child(1)
+{
+font-size:28px;
+border-bottom:3px solid black;
+font-family:sport;
+padding:10px 0;
+}
+
+.intro-text span:nth-child(2)
+{
+font-size:20px;
+}
+
+.helmet-div img
+{
+transform: rotateY(180deg);
+align-self:flex-start;
+}
+
+.helmet-div
+{
+width:90%;
+display:flex;
+justify-content:flex-start;
+align-items:center;
+align-content:center;
+flex-direction:row;
+transform:translateY(130px);
+z-index:5;
+}
+
+.helmet-div span
+{
+width:50%;
+align-self:center;
+margin-left:80px;
+font-size:20px;
+background:#E7E7E7;
+border-radius:20px;
+padding:20px;
+}
+
+.gallery-container
+{
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:column;
+}
+
+.gallery
+{
+width:90%;
+background:#E7E7E7;
+height:400px;
+border-radius:10px;
+z-index:15;
+display:flex;
+justify-content:space-around;
+align-items:center;
+align-content:center;
+flex-direction:row;
+}
+
+.gallery img
+{
+width:400px;
+border-radius:20px;
+box-shadow: black 9px 9px 10px -13px;
+}
+
+.button-intro
+{
+width:200px;
+height:60px;
+display:flex;
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:row;
+border-radius:40px;
+background:var(--primary-clr-200);
+color:white;
+margin-top:20px;
+cursor:pointer;
+transition:all 0.2s;
+}
+
+.button-intro:hover
+{
+background:var(--primary-clr-100);
 }

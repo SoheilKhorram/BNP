@@ -50,6 +50,41 @@
 
     </div>
 
+	<div class="main-page-container-part-1" >
+	<img src="images/fo.png" style="width:700px;" >
+		<div class="intro-text" >
+		<span>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		
+		</span>
+
+		<span>
+		incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+		</span>
+
+		<span class="button-intro" >AJWJDS</span>
+
+		</div>
+	</div>
+
+<div class="gallery-container" >
+<div class="helmet-div"> 
+<img src="images/helmet.jpg" > 
+		<span>
+		incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+		incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+		</span>
+</div>
+<div class="gallery">
+<img src="images/sample.png" >
+<img src="images/sample.png" >
+<img src="images/sample.png" >
+</div>
+</div>
+
 	<div class="main-page-container-part-2" >
 	
 	<div class="main-page-section-left" ><div></div></div>
