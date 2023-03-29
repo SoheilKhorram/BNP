@@ -50,26 +50,45 @@
 
     </div>
 
-    <main style="padding:50px;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Amet volutpat consequat mauris nunc congue nisi vitae. Nam libero justo laoreet sit amet cursus.
-        Nascetur ridiculus mus mauris vitae ultricies leo. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus.
-        Nec dui nunc mattis enim. Ultricies integer quis auctor elit sed vulputate mi sit amet. Rutrum quisque non
-        tellus orci ac. Augue mauris augue neque gravida in fermentum. Sem fringilla ut morbi tincidunt augue interdum
-        velit euismod in. Vivamus at augue eget arcu dictum varius duis. Integer eget aliquet nibh praesent tristique
-        magna sit. Nullam non nisi est sit.
+	<div class="main-page-container-part-2" >
+	
+	<div class="main-page-section-left" ><div></div></div>
+	<div class="main-page-section-right" >
+	
+	<div class="main-page-text-section" >
+	<span>ASDFG 1</span>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+	incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
+	Adipiscing diam donec adipiscing tristique risus nec feugiat in. Viverra tellus in hac 
+	habitasse platea dictumst vestibulum. Elementum tempus egestas sed sed. Velit euismod in
+	</div>
 
-        Ut placerat orci nulla pellentesque dignissim. Ac tortor dignissim convallis aenean et tortor. Nisl pretium
-        fusce id velit ut tortor pretium viverra suspendisse. Dictum at tempor commodo ullamcorper a. Suscipit tellus
-        mauris a diam maecenas sed enim. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Eget mauris
-        pharetra et ultrices neque ornare aenean. Ante in nibh mauris cursus mattis molestie. Aliquet bibendum enim
-        facilisis gravida neque convallis a cras semper. Scelerisque felis imperdiet proin fermentum. Nec tincidunt
-        praesent semper feugiat nibh sed. Dictum non consectetur a erat nam at lectus urna. Mauris in aliquam sem
-        fringilla ut morbi tincidunt. Tellus mauris a diam maecenas sed enim ut. Mauris vitae ultricies leo integer
-        malesuada nunc vel risus commodo. Gravida rutrum quisque non tellus orci. Massa tincidunt nunc pulvinar sapien
-        et ligula ullamcorper malesuada. Nisi lacus sed viverra tellus in. Sed elementum tempus egestas sed sed risus.
-        Dis parturient montes nascetur ridiculus mus mauris vitae ultricies.
-    </main>
+
+	<div class="main-page-text-section" >
+	<span>ASDFG 2</span>
+	pellentesque massa placerat duis ultricies lacus. Tempus egestas sed sed risus. Urna condimentum 
+	mattis pellentesque id nibh. Sed faucibus turpis in eu mi bibendum neque egestas congue. 
+	Morbi quis commodo odio aenean sed. Amet facilisis magna etiam tempor orci eu. Quis auctor 
+	elit sed vulputate. A diam sollicitudin tempor id eu nisl nunc.
+	</div>
+
+	</div>
+	
+	</div>
+
+
+	<div class="main-page-container-part-3" >
+	<span class="part-3-title" >GFDSA</span>
+	<span class="part-3-desc" >Amet facilisis magna etiam tempor orci eu.</span>
+	
+	<div class="media-section" >
+	<div><img src="images/sample.jpg"></div>
+	<div><img src="images/sample.jpg"><img src="images/sample.jpg"></div>
+	<div style="background:#EEEEEE;width:1000px;height:100px;border-radius:10px;margin:10px 0 30px 0;" ></div>
+	</div>
+	
+	</div>
+
 
     <footer>
         <div class="footer-container">
@@ -114,7 +133,7 @@
                     Did you know that we also operate on other platforms?
                 <p>
                     Follow us on the following platforms
-                <div class="social-media-icons">
+                <div class="social-media-icons" style="margin-top:20px;" >
                     <a href="https://t.me/F14KChannel">
                         <img src="images/telegram-accent.png" alt="telegram" class="social-media-icon">
                     </a>
@@ -137,6 +156,15 @@
                         <img src="images/twitter-accent.png" alt="twitter" class="social-media-icon">
                     </a>
 
+        
+ 
+
+
+                </div>
+
+                <div class="social-media-icons">
+ 
+
               <a href="https://discord.gg/RvNa9rQT">
                         <img src="images/discord.png" alt="twitter" class="social-media-icon">
                     </a>
@@ -144,6 +172,10 @@
 
 
                 </div>
+
+
+
+
                 </p>
                 </p>
             </div>

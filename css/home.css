@@ -4,7 +4,6 @@
     --primary-clr-300: #4e535a;
     --secondary-clr: #eeeeee;
     --accent-clr: #ffd369;
-
     --radius: 10px;
 }
 
@@ -12,6 +11,11 @@
 @font-face {
     font-family: EnglishFont;
     src: url(Poppins.ttf);
+}
+
+@font-face {
+    font-family: sport;
+    src: url(E.ttf);
 }
 
 @keyframes ghost {
@@ -65,20 +69,28 @@ body {
     color: var(--secondary-clr);
 }
 
-.menu-item {
+.menu-item 
+{
     width: 200px;
-    margin: 20px;
     cursor: pointer;
     transition: all 0.2s;
-    padding: 10px;
-    border-radius: 20px;
     display: flex;
+	margin:0 20px;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-direction: row;
     position: relative;
+	transform:skewX(345deg);
 }
+
+.menu-item span
+{
+
+padding:18px;
+}
+
+
 
 .menu-item:hover {
     background: var(--primary-clr-200);
@@ -98,7 +110,7 @@ body {
 .submenu-container {
     position: absolute;
     top: 70px;
-    border-radius: var(--radius);
+
     background: var(--primary-clr-300);
     display: flex;
     justify-content: flex-start;
@@ -107,13 +119,14 @@ body {
     flex-direction: column;
     color: var(--secondary-clr);
     display: none;
+    transform: skewX(15deg) translateX(30px);
 }
 
 .submenu-item {
     transition: all 0.1s;
     width: 200px;
     padding: 10px;
-    border-radius: var(--radius);
+
 }
 
 .submenu-item:hover {
@@ -208,4 +221,114 @@ footer {
 
 .read-more-div {
     margin-top: 1.1rem;
+}
+
+.main-page-container-part-2
+{
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:row;
+margin:20px 0;
+}
+.main-page-section-left
+{
+width:8%;
+}
+
+.main-page-section-left > div
+{
+with:90%;
+height:600px;
+background:#EEEEEE;
+display:flex;
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:row;
+border-radius:10px;
+}
+
+.main-page-section-right
+{
+width:90%;
+display:flex;
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:row;
+}
+
+.main-page-section-right > .main-page-text-section
+{
+width:45%;
+background:#E7E7E7;
+height:300px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+align-content:center;
+flex-direction:column;
+margin:10px;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow: black 9px 9px 10px -13px;
+}
+
+.main-page-section-right > .main-page-text-section > span
+{
+font-family:sport;
+font-size:30px;
+}
+
+.main-page-container-part-3
+{
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:column;
+}
+
+.part-3-title
+{
+font-size:30px;
+font-family:sport;
+border-bottom:3px solid black;
+padding:5px 20px;
+}
+
+.part-3-desc
+{
+margin-top:20px;
+}
+
+.media-section
+{
+width:90%;
+display:flex;
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:column;
+}
+
+.media-section div
+{
+display:flex;
+justify-content:center;
+align-items:center;
+align-content:center;
+flex-direction:row;
+}
+
+.media-section img
+{
+width:500px;
+margin:30px;
+border-radius:10px;
 }
