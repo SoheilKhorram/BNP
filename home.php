@@ -71,7 +71,7 @@
     
     <div class="gallery-container" >
     <div class="helmet-div"> 
-    <img src="images/helmet.jpg" > 
+    <img src="images/helmet.png" > 
             <span>
             incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -88,7 +88,7 @@
     
         <div class="main-page-container-part-2" >
         
-        <div class="main-page-section-left" ><div></div></div>
+        <div class="main-page-section-left" ></div>
         <div class="main-page-section-right" >
         
         <div class="main-page-text-section" >
