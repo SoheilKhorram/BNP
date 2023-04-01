@@ -110,8 +110,6 @@
         </div>
 
         <div class="main-page-container-part-3">
-            <span class="part-3-title">GFDSA</span>
-            <span class="part-3-desc">Amet facilisis magna etiam tempor orci eu.</span>
 
             <div class="media-section">
                 <div><img src="images/sample.jpg"></div>

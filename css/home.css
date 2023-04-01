@@ -234,10 +234,17 @@ footer {
 }
 
 .main-page-text-section {
-    background-color: var(--primary-clr-600);
+    border:3px solid black;
     border-radius: var(--radius);
     padding: 2rem;
     font-size: 1.2rem;
+}
+
+.main-page-text-section span
+{
+text-align:center;
+font-family:sport;
+font-size:25px;
 }
 
 .main-page-container-part-3 {
@@ -246,6 +253,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+	padding-top:30px;
 }
 
 .part-3-title {
@@ -253,10 +261,12 @@ footer {
     font-family: sport;
     border-bottom: 3px solid black;
     padding: 5px 20px;
+	color:white;
 }
 
 .part-3-desc {
     margin-top: 20px;
+	color:white;
 }
 
 .media-section {
@@ -285,7 +295,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 80px 0;
+    margin: 50px 0;
 }
 
 .intro-text {
@@ -327,7 +337,7 @@ footer {
     align-self: center;
     margin-left: 80px;
     font-size: 20px;
-    background: #E7E7E7;
+    background: #d3d4d6;
     border-radius: 20px;
     padding: 20px;
 }
@@ -343,7 +353,7 @@ footer {
 
 .gallery {
     width: 90%;
-    background: #E7E7E7;
+    background: #d3d4d6;
     height: 400px;
     border-radius: 10px;
     z-index: 15;
