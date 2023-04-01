@@ -50,79 +50,81 @@
 
     </div>
 
-	<div class="main-page-container-part-1" >
-	<img src="images/fo.png" style="width:700px;" >
-		<div class="intro-text" >
-		<span>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit
-		
-		</span>
-
-		<span>
-		incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-		</span>
-
-		<span class="button-intro" >AJWJDS</span>
-
-		</div>
-	</div>
-
-<div class="gallery-container" >
-<div class="helmet-div"> 
-<img src="images/helmet.jpg" > 
-		<span>
-		incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-		incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-		</span>
-</div>
-<div class="gallery">
-<img src="images/sample.png" >
-<img src="images/sample.png" >
-<img src="images/sample.png" >
-</div>
-</div>
-
-	<div class="main-page-container-part-2" >
-	
-	<div class="main-page-section-left" ><div></div></div>
-	<div class="main-page-section-right" >
-	
-	<div class="main-page-text-section" >
-	<span>ASDFG 1</span>
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-	incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
-	Adipiscing diam donec adipiscing tristique risus nec feugiat in. Viverra tellus in hac 
-	habitasse platea dictumst vestibulum. Elementum tempus egestas sed sed. Velit euismod in
-	</div>
-
-
-	<div class="main-page-text-section" >
-	<span>ASDFG 2</span>
-	pellentesque massa placerat duis ultricies lacus. Tempus egestas sed sed risus. Urna condimentum 
-	mattis pellentesque id nibh. Sed faucibus turpis in eu mi bibendum neque egestas congue. 
-	Morbi quis commodo odio aenean sed. Amet facilisis magna etiam tempor orci eu. Quis auctor 
-	elit sed vulputate. A diam sollicitudin tempor id eu nisl nunc.
-	</div>
-
-	</div>
-	
-	</div>
-
-
-	<div class="main-page-container-part-3" >
-	<span class="part-3-title" >GFDSA</span>
-	<span class="part-3-desc" >Amet facilisis magna etiam tempor orci eu.</span>
-	
-	<div class="media-section" >
-	<div><img src="images/sample.jpg"></div>
-	<div><img src="images/sample.jpg"><img src="images/sample.jpg"></div>
-	<div style="background:#EEEEEE;width:1000px;height:100px;border-radius:10px;margin:10px 0 30px 0;" ></div>
-	</div>
-	
-	</div>
+    <main>
+        <div class="main-page-container-part-1" >
+        <img src="images/fo.png" style="width:700px;" >
+            <div class="intro-text" >
+            <span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            
+            </span>
+    
+            <span>
+            incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            </span>
+    
+            <span class="button-intro" >AJWJDS</span>
+    
+            </div>
+        </div>
+    
+    <div class="gallery-container" >
+    <div class="helmet-div"> 
+    <img src="images/helmet.jpg" > 
+            <span>
+            incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            </span>
+    </div>
+    <div class="gallery">
+    <img src="images/sample.png" >
+    <img src="images/sample.png" >
+    <img src="images/sample.png" >
+    </div>
+    </div>
+    
+        <div class="main-page-container-part-2" >
+        
+        <div class="main-page-section-left" ><div></div></div>
+        <div class="main-page-section-right" >
+        
+        <div class="main-page-text-section" >
+        <span>ASDFG 1</span>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing enim.
+        Adipiscing diam donec adipiscing tristique risus nec feugiat in. Viverra tellus in hac 
+        habitasse platea dictumst vestibulum. Elementum tempus egestas sed sed. Velit euismod in
+        </div>
+    
+    
+        <div class="main-page-text-section" >
+        <span>ASDFG 2</span>
+        pellentesque massa placerat duis ultricies lacus. Tempus egestas sed sed risus. Urna condimentum 
+        mattis pellentesque id nibh. Sed faucibus turpis in eu mi bibendum neque egestas congue. 
+        Morbi quis commodo odio aenean sed. Amet facilisis magna etiam tempor orci eu. Quis auctor 
+        elit sed vulputate. A diam sollicitudin tempor id eu nisl nunc.
+        </div>
+    
+        </div>
+        
+        </div>
+    
+    
+        <div class="main-page-container-part-3" >
+        <span class="part-3-title" >GFDSA</span>
+        <span class="part-3-desc" >Amet facilisis magna etiam tempor orci eu.</span>
+        
+        <div class="media-section" >
+        <div><img src="images/sample.jpg"></div>
+        <div><img src="images/sample.jpg"><img src="images/sample.jpg"></div>
+        <div style="background:#EEEEEE;width:1000px;height:100px;border-radius:10px;margin:10px 0 30px 0;" ></div>
+        </div>
+        
+        </div>
+    </main>
 
 
     <footer>

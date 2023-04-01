@@ -2,6 +2,8 @@
     --primary-clr-100: #222831;
     --primary-clr-200: #393E46;
     --primary-clr-300: #4e535a;
+    --primary-clr-400: #64696f;
+    --primary-clr-600: #919498;
     --secondary-clr: #eeeeee;
     --accent-clr: #ffd369;
     --radius: 10px;
@@ -241,7 +243,7 @@ width:8%;
 
 .main-page-section-left > div
 {
-with:90%;
+width:90%;
 height:600px;
 background:#EEEEEE;
 display:flex;
@@ -449,4 +451,8 @@ transition:all 0.2s;
 .button-intro:hover
 {
 background:var(--primary-clr-100);
+}
+
+main>*:nth-child(even){
+    background: var(--primary-clr-600);
 }
