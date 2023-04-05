@@ -18,16 +18,16 @@
             Home
         </li>
         <li class="sidebar__item">
-            <img src="images/setting.png" alt="setting" class="sidebar__img">
-            User Settings
+            <img src="images/user.png" alt="user" class="sidebar__img">
+            Pro User
         </li>
         <li class="sidebar__item">
             <img src="images/coin.png" alt="coin" class="sidebar__img">
             Coins
         </li>
         <li class="sidebar__item">
-            <img src="images/user.png" alt="user" class="sidebar__img">
-            Pro User
+            <img src="images/setting.png" alt="setting" class="sidebar__img">
+            User Settings
         </li>
     </div>
 
