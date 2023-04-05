@@ -13,10 +13,22 @@
 
     <div class="sidebar">
         <h2>BNP</h2>
-        <li class="sidebar__item">Home</li>
-        <li class="sidebar__item">User Settings</li>
-        <li class="sidebar__item">Coins</li>
-        <li class="sidebar__item">Pro User</li>
+        <li class="sidebar__item">
+            <img src="images/home.png" alt="home" class="sidebar__img">
+            Home
+        </li>
+        <li class="sidebar__item">
+            <img src="images/setting.png" alt="setting" class="sidebar__img">
+            User Settings
+        </li>
+        <li class="sidebar__item">
+            <img src="images/coin.png" alt="coin" class="sidebar__img">
+            Coins
+        </li>
+        <li class="sidebar__item">
+            <img src="images/user.png" alt="user" class="sidebar__img">
+            Pro User
+        </li>
     </div>
 
 </body>

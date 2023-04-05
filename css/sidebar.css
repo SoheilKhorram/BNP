@@ -50,7 +50,7 @@ body {
 .sidebar {
     --vertical-padding: 1rem;
 
-    width: 12rem;
+    width: 13rem;
     height: 100vh;
     background-color: var(--primary-clr-200);
     box-shadow: black 0px 0px 7px 0px;
@@ -80,4 +80,15 @@ body {
 .sidebar__item:hover {
     color: var(--accent-clr);
     background-color: var(--primary-clr-300);
+}
+
+.sidebar>li {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__img {
+    width: 18px;
+    height: 18px;
+    margin-right: 0.4rem;
 }
