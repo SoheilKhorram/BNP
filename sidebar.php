@@ -18,7 +18,7 @@
             Home
         </li>
         <li class="sidebar__item">
-            <img src="images/user.png" alt="user" class="sidebar__img">
+            <img src="images/medal.png" alt="medal" class="sidebar__img">
             Pro User
         </li>
         <li class="sidebar__item">
@@ -28,6 +28,18 @@
         <li class="sidebar__item">
             <img src="images/setting.png" alt="setting" class="sidebar__img">
             User Settings
+        </li>
+        <li class="sidebar__item">
+            <img src="images/source.png" alt="source" class="sidebar__img">
+            Source
+        </li>
+        <li class="sidebar__item">
+            <img src="images/support.png" alt="support" class="sidebar__img">
+            Support
+        </li>
+        <li class="sidebar__item">
+            <img src="images/privacy.png" alt="privacy" class="sidebar__img">
+            Privacy
         </li>
     </div>
 
