@@ -13,7 +13,7 @@
 
     <div class="sidebar">
         <h2>BNP</h2>
-        <li class="sidebar__item">
+        <li class="sidebar__item" onclick="handleClick()">
             <img src="images/home.png" alt="home" class="sidebar__img">
             Home
         </li>
@@ -42,6 +42,53 @@
             Privacy
         </li>
     </div>
+
+    <div class="source">
+        <div class="card">
+            <h2>Title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
+                unde
+                ab?
+            </p>
+            <button class="card__button">Click</button>
+        </div>
+        <div class="card">
+            <h2>Title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
+                unde
+                ab?
+            </p>
+            <button class="card__button">Click</button>
+        </div>
+
+        <div class="card">
+            <h2>Title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
+                unde
+                ab?
+            </p>
+            <button class="card__button">Click</button>
+        </div>
+
+        <div class="card">
+            <h2>Title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
+                unde
+                ab?
+            </p>
+            <button class="card__button">Click</button>
+        </div>
+    </div>
+
+    <script>
+    function handleClick() {
+        window.location.href = "home.php"
+    }
+    </script>
 
 </body>
 
