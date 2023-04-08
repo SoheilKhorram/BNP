@@ -43,7 +43,7 @@
         </li>
     </div>
 
-    <div class="source">
+    <!-- div class="source">
         <div class="card">
             <h2>Title</h2>
             <p>
@@ -82,12 +82,22 @@
             </p>
             <button class="card__button">Click</button>
         </div>
+    </div> -->
+
+    <div class="support">
+        <form class="support__form">
+            <label>Subject</label>
+            <input type="text" name="subject" placeholder="Subject">
+            <label>Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <button class="support__button">Send</button>
+        </form>
     </div>
 
     <script>
-    function handleClick() {
-        window.location.href = "home.php"
-    }
+        function handleClick() {
+            window.location.href = "home.php"
+        }
     </script>
 
 </body>

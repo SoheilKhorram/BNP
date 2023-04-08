@@ -32,6 +32,14 @@ select {
     cursor: pointer;
 }
 
+input,
+textarea {
+    font-family: inherit;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
 select:focus {
     border: none;
     outline: none;
@@ -45,6 +53,7 @@ body {
     font-family: EnglishFont;
     background-color: var(--primary-clr-900);
     display: flex;
+    align-self: stretch;
 }
 
 .sidebar {
@@ -148,4 +157,68 @@ body {
     .source {
         grid-template-columns: 1fr;
     }
+}
+
+/* Support */
+
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0;
+    padding: 4rem 2rem;
+}
+
+.support__form {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: var(--radius);
+    background-color: var(--primary-clr-800);
+    padding: 2rem;
+}
+
+.support__form>*+* {
+    margin-top: 1rem;
+}
+
+.support__form>input {
+    min-width: 100%;
+    padding: 1rem;
+    border-radius: var(--radius);
+    background-color: var(--secondary-clr);
+    border: 1px solid var(--primary-clr-300);
+}
+
+.support__form>textarea {
+    min-width: 100%;
+    min-height: 10rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 1px solid var(--primary-clr-300);
+    background-color: var(--secondary-clr);
+    border-radius: var(--radius);
+}
+
+.support__form>button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: var(--radius);
+    background-color: var(--primary-clr-200);
+    color: var(--secondary-clr);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.support__form>button:hover {
+    color: var(--accent-clr);
+}
+
+.support__form>input:focus,
+.support__form>textarea:focus {
+    outline: 1.5px solid var(--primary-clr-100);
 }
