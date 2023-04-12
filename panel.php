@@ -43,7 +43,7 @@
         </li>
     </div>
 
-    <!-- div class="source">
+    <div class="source">
         <div class="card">
             <h2>Title</h2>
             <p>
@@ -82,9 +82,9 @@
             </p>
             <button class="card__button">Click</button>
         </div>
-    </div> -->
+    </div>
 
-    <div class="support">
+    <!-- <div class="support">
         <form class="support__form">
             <label>Subject</label>
             <input type="text" name="subject" placeholder="Subject">
@@ -92,7 +92,7 @@
             <textarea name="message" id="message" cols="30" rows="10"></textarea>
             <button class="support__button">Send</button>
         </form>
-    </div>
+    </div> -->
 
     <script>
         function handleClick() {
