@@ -80,6 +80,8 @@ body {
 }
 
 .sidebar__item {
+    --accent-clr-filter: brightness(0) saturate(100%) invert(74%) sepia(55%) saturate(399%) hue-rotate(353deg) brightness(103%) contrast(103%);
+
     color: var(--secondary-clr);
     padding: var(--vertical-padding) 2rem;
     cursor: pointer;
@@ -103,7 +105,15 @@ body {
 }
 
 .sidebar__item:hover .sidebar__img {
-    --accent-clr-filter: brightness(0) saturate(100%) invert(74%) sepia(55%) saturate(399%) hue-rotate(353deg) brightness(103%) contrast(103%);
+    filter: var(--accent-clr-filter);
+}
+
+.active {
+    color: var(--accent-clr);
+    background-color: var(--primary-clr-300);
+}
+
+.active .sidebar__img {
     filter: var(--accent-clr-filter);
 }
 
