@@ -102,6 +102,11 @@ body {
     margin-right: 0.4rem;
 }
 
+.sidebar__item:hover .sidebar__img {
+    --accent-clr-filter: brightness(0) saturate(100%) invert(74%) sepia(55%) saturate(399%) hue-rotate(353deg) brightness(103%) contrast(103%);
+    filter: var(--accent-clr-filter);
+}
+
 /* Source */
 
 .source {
