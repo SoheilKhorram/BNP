@@ -288,3 +288,20 @@ body {
 .user-profile__button:hover {
     color: var(--accent-clr);
 }
+
+/* Privacy */
+
+.privacy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    margin: 6rem auto;
+    background-color: var(--primary-clr-600);
+    border-radius: var(--radius);
+}
+
+.privacy__text {
+    max-width: 20rem;
+    font-size: 1.2rem;
+}

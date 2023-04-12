@@ -93,7 +93,8 @@
             <button class="support__button">Send</button>
         </form>
     </div> -->
-    <div class="user-profile">
+
+    <!-- <div class="user-profile">
         <form action="">
             <label>New Password</label>
             <input type="password">
@@ -101,6 +102,16 @@
             <input type="password">
             <button class="user-profile__button">Change Password</button>
         </form>
+    </div> -->
+
+    <div class="privacy">
+        <p class="privacy__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, similique. Ipsam et
+            veritatis dicta laudantium.
+            Repellendus dolor nulla necessitatibus consequatur voluptatibus asperiores ipsa nisi maxime. Autem
+            temporibus suscipit odio quo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum amet molestiae
+            nam minus velit fugiat, omnis exercitationem voluptas iure nihil beatae fugit placeat vitae recusandae non
+            ipsam, fuga earum natus.
+        </p>
     </div>
 
     <script>
