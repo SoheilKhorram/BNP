@@ -43,7 +43,7 @@
         </li>
     </div>
 
-    <div class="source">
+    <!-- <div class="source">
         <div class="card">
             <h2>Title</h2>
             <p>
@@ -82,7 +82,7 @@
             </p>
             <button class="card__button">Click</button>
         </div>
-    </div>
+    </div> -->
 
     <!-- <div class="support">
         <form class="support__form">
@@ -93,6 +93,15 @@
             <button class="support__button">Send</button>
         </form>
     </div> -->
+    <div class="user-profile">
+        <form action="">
+            <label>New Password</label>
+            <input type="password">
+            <label>Confirm Password</label>
+            <input type="password">
+            <button class="user-profile__button">Change Password</button>
+        </form>
+    </div>
 
     <script>
         function handleClick() {

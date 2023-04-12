@@ -236,3 +236,55 @@ body {
 .support__form>textarea:focus {
     outline: 1.5px solid var(--primary-clr-100);
 }
+
+/* User Profile */
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0;
+    max-width: 40%;
+    margin: 6rem auto;
+    padding: 4rem;
+    background-color: var(--primary-clr-600);
+    border-radius: var(--radius);
+}
+
+.user-profile>form {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.user-profile>form>*+* {
+    margin-top: 1.5rem;
+}
+
+.user-profile>form>label {
+    font-size: 1.1rem;
+}
+
+.user-profile>form>input {
+    max-width: 40rem;
+    padding: 1rem;
+    border-radius: var(--radius);
+    background-color: var(--secondary-clr);
+    border: 1px solid var(--primary-clr-300);
+}
+
+.user-profile__button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: var(--radius);
+    background-color: var(--primary-clr-200);
+    color: var(--secondary-clr);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.user-profile__button:hover {
+    color: var(--accent-clr);
+}
