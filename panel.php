@@ -103,7 +103,7 @@
             <input type="password">
             <label>Confirm Password</label>
             <input type="password">
-            <button class="user-profile__button">Change Password</button>
+            <button class="user-profile__button">Save Changes</button>
         </form>
     </div>
 
