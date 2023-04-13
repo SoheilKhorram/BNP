@@ -243,9 +243,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1 1 0;
-    max-width: 40%;
-    margin: 6rem auto;
+    width: 30rem;
+    margin: 2.2rem auto;
     padding: 4rem;
     background-color: var(--primary-clr-600);
     border-radius: var(--radius);
@@ -258,7 +257,7 @@ body {
 }
 
 .user-profile>form>*+* {
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
 }
 
 .user-profile>form>label {
@@ -267,10 +266,18 @@ body {
 
 .user-profile>form>input {
     max-width: 40rem;
-    padding: 1rem;
+    padding: 0.8rem;
     border-radius: var(--radius);
     background-color: var(--secondary-clr);
     border: 1px solid var(--primary-clr-300);
+}
+
+.user-profile__img {
+    align-self: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: var(--primary-clr-300);
 }
 
 .user-profile__button {

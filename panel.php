@@ -44,33 +44,33 @@
     </div>
 
     <!-- <div class="source">
-        <div class="card">
-            <h2>Title</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
-                unde
-                ab?
-            </p>
-            <button class="card__button">Click</button>
-        </div>
-        <div class="card">
-            <h2>Title</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
-                unde
-                ab?
-            </p>
-            <button class="card__button">Click</button>
-        </div>
-
-        <div class="card">
-            <h2>Title</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
-                unde
-                ab?
-            </p>
-            <button class="card__button">Click</button>
+            <div class="card">
+                <h2>Title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
+                    unde
+                    ab?
+                </p>
+                <button class="card__button">Click</button>
+            </div>
+            <div class="card">
+                <h2>Title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
+                    unde
+                    ab?
+                </p>
+                <button class="card__button">Click</button>
+            </div>
+            
+            <div class="card">
+                <h2>Title</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque facere beatae ut molestiae
+                    unde
+                    ab?
+                </p>
+                <button class="card__button">Click</button>
         </div>
 
         <div class="card">
@@ -94,17 +94,20 @@
         </form>
     </div> -->
 
-    <!-- <div class="user-profile">
+    <div class="user-profile">
         <form action="">
+            <div class="user-profile__img"></div>
+            <label>Username</label>
+            <input type="text" name="username">
             <label>New Password</label>
             <input type="password">
             <label>Confirm Password</label>
             <input type="password">
             <button class="user-profile__button">Change Password</button>
         </form>
-    </div> -->
+    </div>
 
-    <div class="privacy">
+    <!-- <div class="privacy">
         <p class="privacy__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, similique. Ipsam et
             veritatis dicta laudantium.
             Repellendus dolor nulla necessitatibus consequatur voluptatibus asperiores ipsa nisi maxime. Autem
@@ -112,7 +115,7 @@
             nam minus velit fugiat, omnis exercitationem voluptas iure nihil beatae fugit placeat vitae recusandae non
             ipsam, fuga earum natus.
         </p>
-    </div>
+    </div> -->
 
     <script>
         function handleClick() {
