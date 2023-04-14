@@ -103,6 +103,10 @@
             <input type="password">
             <label>Confirm Password</label>
             <input type="password">
+            <select name="language" id="language-select" value="English">
+                <option value="English">English</option>
+                <option value="Persian">Persian</option>
+            </select>
             <button class="user-profile__button">Change Password</button>
         </form>
     </div>
@@ -118,20 +122,20 @@
     </div> -->
 
     <script>
-        function handleClick() {
-            window.location.href = "home.php"
-        }
+    function handleClick() {
+        window.location.href = "home.php"
+    }
 
-        const sidebarItems = document.querySelectorAll(".sidebar__item");
+    const sidebarItems = document.querySelectorAll(".sidebar__item");
 
-        sidebarItems.forEach(item => {
-            item.addEventListener("click", () => {
-                sidebarItems.forEach(item => {
-                    item.classList.remove("active");
-                })
-                item.classList.add("active");
+    sidebarItems.forEach(item => {
+        item.addEventListener("click", () => {
+            sidebarItems.forEach(item => {
+                item.classList.remove("active");
             })
+            item.classList.add("active");
         })
+    })
     </script>
 
 </body>
