@@ -107,7 +107,7 @@
                 <option value="English">English</option>
                 <option value="Persian">Persian</option>
             </select>
-            <button class="user-profile__button">Change Password</button>
+            <button class="user-profile__button">Save Changes</button>
         </form>
     </div>
 
